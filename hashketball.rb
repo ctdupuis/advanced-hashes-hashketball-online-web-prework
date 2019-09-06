@@ -261,7 +261,7 @@ def long_name_steals_a_ton?
       if current == nil || player[:steals] > current
         current = player[:steals]
         name = player[:player_name]
-        binding.pry
+        # binding.pry
       end
     end
   end
