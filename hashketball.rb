@@ -261,11 +261,11 @@ def long_name_steals_a_ton?
       if current == nil || player[:steals] > current
         current = player[:steals]
         name = player[:player_name]
-         binding.pry
+        
       end
     end
   end
-  if long_name_steals_a_ton? == name
+  if player_with_longest_name == name
     return true 
   else
     return false
