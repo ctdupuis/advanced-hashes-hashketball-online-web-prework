@@ -255,7 +255,7 @@ end
 
 def long_name_steals_a_ton?
   current = nil
-  steals = nil
+  name = nil
   game_hash.each do |location, team|
     team[:players].each do |player|
       if current == nil || player[:steals] > current
