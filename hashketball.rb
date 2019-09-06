@@ -267,7 +267,5 @@ def long_name_steals_a_ton?
   end
   if long_name_steals_a_ton? == name
      return true 
-  else
-    return false
   end
 end
